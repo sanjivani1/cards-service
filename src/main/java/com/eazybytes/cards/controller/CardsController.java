@@ -43,9 +43,6 @@ public class CardsController {
         this.iCardsService = iCardsService;
     }
 
-    @Value("${build.version}")
-    private String buildVersion;
-
     @Autowired
     private Environment environment;
 
